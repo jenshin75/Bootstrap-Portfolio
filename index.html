@@ -10,121 +10,106 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
     <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 </head>
 
 <style>
+    .header {
+        background-color: yellow;
+    }
 
-.header {
-background-color: yellow;
-height: 50px;
+    .body {
+        background-color: gainsboro;
+        height: 200px;
+    }
 
-}
+    .content {
+        background-color: pink;
+        height: 200px;
+    }
 
-.body {
-background-color: gainsboro;
-height: 400px;
-}     
-
-.content {
-background-color: pink;
-}
-
-.footer {
-background-color: teal; 
-height: 50px;
-}
-
-
+    .footer {
+        background-color: teal;
+        height: 50px;
+    }
 </style>
 
 <body>
-    
- <!--main container-->
-<div class="container-fluid header">
 
- <!--header/left section-->
-<div class="col">
-    <a class="navbar-brand">Jenny Shin</a>
-    <div class="col border: green">
-        <ul class="nav justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Active</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-              </ul>
-              </div>
-</div>
-</div>
-
-<!-- <nav class="navbar navbar-light">
-    <a class="navbar-brand">Jenny Shin</a>
-</nav> -->
-  
-
-            <!--header/center empty section -->
-            <div class="col"></div>
- 
-
-            <!--header/right nav section-->
-            <!-- <div class="col">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">    
-                </nav>
-            </div>
-        -->
-
-<!--        
-        </div> -->
-
-
-        <!--this is for the body-->
-        <div class="container">
-            <div class="body row">
-
-                    <div class="content col-sm-4">
-
-                <div class="col-sm-4">
-                    <h2>About Me</h2>
-                    <img src="../Bootstrap-Portfolio/images/daisy.jpg" height="150px" width="150px"></div>
-           
-                        <div class="col-sm-4">
-                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco.</p>
-                             </div>
-            </div>
-    </div>
-    </div>
-
-
-    <!--this is for the footer-->
+    <!--main container-->
     <div class="container-fluid">
-        <div class="footer row">
-                Copyright @ 2019
-        </div>
     </div>
 
-</div>
+    <!--first row-->
+    <div class="container">
 
-    <!-- // Extra small devices (portrait phones, less than 576px)
+    <div class="header">               
+    
+    <div class="d-flex bd-highlight">
+        <div class="p-2 flex-grow-1 bd-highlight">Jenny Shin</div>
+        <div class="p-2 bd-highlight">About</div>
+        <div class="p-2 bd-highlight">Portfolio</div>
+        <div class="p-2 bd-highlight">Contact</div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <!--this is for the body-->
+                            <div class="container">
+                                <div class="body row">
+
+                                    <div class="content col-sm-4">
+
+                                        <div class="col-sm-4">
+                                            <h2>About Me</h2>
+                                            <img src="../Bootstrap-Portfolio/images/daisy.jpg" height="150px"
+                                                width="150px">
+                                        </div>
+
+                                        <div class="col-sm-4">
+                                            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+                                                adipiscing elit,
+                                                sed do
+                                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                                minim veniam, quis
+                                                nostrud
+                                                exercitation ullamco.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!--this is for the footer-->
+                            <div class="container-fluid">
+                                <div class="footer row">
+                                    Copyright @ 2019
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
