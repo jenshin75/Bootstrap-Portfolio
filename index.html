@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Index</title>
   <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
-  <link rel="stylesheet" type="text/css" href="../Bootstrap-Portfolio/assets/css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../Bootstrap-Portfolio/assets/css/style.css">
+  
   <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
@@ -21,31 +22,35 @@
   }
 </style>
 
-<header id="masthead">
-  <div class="container">
-    <a href="index.html" id="logo">Jenny Shin</a>
 
-    <div style="background-color: yellow;">
-      <nav class="navbar navbar-expand-lg">
-        <span class="navbar-brand mb-1 h1">Jenny Shin</span>
-            <ul class="nav navbar-nav navbar-right">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-    </div>
-    </nav>
-
-</header>
 
 <body>
-  <div id="main-container" class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+  <div id="main-container" class="container"> 
+     
+
     <section class="main-section">
       <div class="containerM">
         <a href="../Bootstrap-Portfolio/assets/images/concrete_seamless.png"></a>
@@ -56,11 +61,19 @@
               style="float: left">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere turpis non nisi tempor, vel
               tristique magna maximus. Suspendisse rhoncus tincidunt massa, id sollicitudin elit. Integer tristique
-              tortor vitae ex bibendum consectetur. Etiam vel diam ligula. Vestibulum purus lectus, pretium eu bibendum vel, pellentesque mattis odio. Nam eleifend, nulla ac aliquet convallis, tellus metus lobortis erat, id auctor dolor magna vel risus. Quisque sagittis, tellus id blandit pellentesque, massa erat pretium mauris, in vestibulum quam justo ac nibh. Nullam congue dui commodo dolor interdum, vel facilisis nisl pretium. Cras massa nisl, malesuada et vestibulum id, bibendum a sapien. Nullam sed tempus sapien, quis imperdiet urna. Vestibulum imperdiet auctor accumsan.</p>
+              tortor vitae ex bibendum consectetur. Etiam vel diam ligula. Vestibulum purus lectus, pretium eu bibendum
+              vel, pellentesque mattis odio. Nam eleifend, nulla ac aliquet convallis, tellus metus lobortis erat, id
+              auctor dolor magna vel risus. Quisque sagittis, tellus id blandit pellentesque, massa erat pretium mauris,
+              in vestibulum quam justo ac nibh. Nullam congue dui commodo dolor interdum, vel facilisis nisl pretium.
+              Cras massa nisl, malesuada et vestibulum id, bibendum a sapien. Nullam sed tempus sapien, quis imperdiet
+              urna. Vestibulum imperdiet auctor accumsan.</p>
             <br>
-            <p> Aliquam erat volutpat. Praesent sit amet tristique tortor, nec lobortis velit. Nullam faucibus    pulvinar justo, non dignissim orci feugiat sed. Fusce vehicula turpis quis diam commodo molestie. Donec nec tristique nibh, eget interdum purus. Proin rutrum turpis at felis tempus, eu dignissim massa blandit.
+            <p> Aliquam erat volutpat. Praesent sit amet tristique tortor, nec lobortis velit. Nullam faucibus pulvinar
+              justo, non dignissim orci feugiat sed. Fusce vehicula turpis quis diam commodo molestie. Donec nec
+              tristique nibh, eget interdum purus. Proin rutrum turpis at felis tempus, eu dignissim massa blandit.
               Aliquam tincidunt consequat porttitor. Praesent vehicula ex velit, in mattis ipsum sodales ut. Donec
-              placerat nibh non euismod porta. Aenean sed diam dolor. Aliquam commodo ullamcorper arcu, id feugiat ante ornare eget. Nullam luctus tincidunt odio eu condimentum.</p>
+              placerat nibh non euismod porta. Aenean sed diam dolor. Aliquam commodo ullamcorper arcu, id feugiat ante
+              ornare eget. Nullam luctus tincidunt odio eu condimentum.</p>
           </div>
         </div>
       </div>
@@ -72,4 +85,5 @@
     </div>
   </footer>
 </body>
+
 </html>

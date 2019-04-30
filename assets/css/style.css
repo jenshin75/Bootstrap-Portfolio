@@ -12,7 +12,7 @@ body {
 
 /* general */
 
-.container {
+/* .container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
@@ -52,7 +52,7 @@ h3 {
 
 /* header */
 
-#masthead {
+/* #masthead {
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -94,9 +94,7 @@ nav a {
 
 nav a:first-child {
   border-left: 0 none;
-}
-
-/* footer */
+} */
 
 footer {
   padding: 30px 0;
