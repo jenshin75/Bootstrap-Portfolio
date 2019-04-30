@@ -5,13 +5,22 @@
   <meta charset="UTF-8">
   <title>Contact | Your Name</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <link rel="stylesheet" type="text/css" href="../Bootstrap-Portfolio/assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
 
   <header id="masthead">
     <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
+      <a href="index.html" id="logo">Jenny Shin</a>
       <nav>
         <a href="index.html">About</a>
         <a href="portfolio.html">Portfolio</a>
@@ -20,27 +29,30 @@
     </div>
   </header>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Contact</h1>
+      <div id="main-container" class="container">
+          <section class="main-section">
+            <h1>Portfolio</h1>
 
-      <form id="contact-form">
-        <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
+      <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Name</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+          </div>
+
+          <div class="form-group">
+              <label for="exampleFormControlInput1">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="johndoe@abc.com">
+            </div>
+
+          <div class="form-group">
             <label for="message">Message</label>
+            <!-- <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea> -->
             <textarea id="message" name="message" required="required"></textarea>
-          </li>
-        </ul>
-        <input type="submit">
-      </form>
+          </div>
+        </form>
+
+            <input type="submit">
+     
 
     </section>
 
