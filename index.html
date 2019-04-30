@@ -1,165 +1,127 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me</title>
+  <meta charset="UTF-8">
+  <title>Assignment #2</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- This line is money! It points your HTML to the CSS file. -->
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="../Basic-Portfolio/assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
-
 <body>
-<!-- 
-    <header>
-<div class="container">
-        <div class="col-sm-1" style=background-color:red;"></div>
-        <div class="col-sm-5" style=background-color:green;"><h3>Jenny Shin</h3></div>
-        <div class="col-sm-5" style=background-color:yellow;"></div>
-        <div class="col-sm-1" style=background-color:orange;"></div>
-</div>
-</header> -->
 
+  <!-- <div class="containerT float_left"></div>
+  
+  <div class="containerTL"><h3>Jenny Shin</h3>
+  </div>
 
-<div class="container">
-       
-    <div class="row">  
-        <div class="col-sm-3" style="background-color:yellow;">
-                <nav class="navbar navbar-expand-sm">
-            <h3>Jenny Shin</h3>
-        </div>
+  <div class="containerTR float_right">
+    <a href="contact.html">Contact</a>
+  </div>
 
-        <div class="col-sm-3" style="background-color:orange;">
-        </div>
+  <div class="containerTR float_right">
+    <a href="portfolio.html">Portfolio</a>
+  </div>
 
-        <div class="col-sm-2" style="background-color:green;">
-                <nav class="navbar navbar-expand-sm">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">About</a>
-                            </li>
-                        </ul>
-                    </nav>
-        </div>
+  <div class="containerTR float_right">
+    <a href="index.html">About</a>
+  </div> -->
 
-        <div class="col-sm-2" style="background-color:pink;">
-                <nav class="navbar navbar-expand-sm">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                            </li>
-                        </ul>
-                    </nav>
-        </div>
-
-        <div class="col-sm-2" style="background-color:purple;">
-                <nav class="navbar navbar-expand-sm">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-        </div>
-
-
-        </div>
-<!-- </div> -->
-    
-            <!-- <div class="col-sm-2" style=background-color:purple;">
-                <div class="p-2 bd-highlight"></div>
-                <nav class="navbar navbar-expand-sm">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">About</a>
-                        </li>
-                    </ul>
-                </nav> -->
-
-                <!-- <div class="col-sm-2" style=background-color:orange;">
-                    <div class="p-2 bd-highlight"></div>
+  <div class="container">
+        <div class="row">  
+            <div class="col-sm-3;">
                     <nav class="navbar navbar-expand-sm">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                            </li>
-                        </ul>
+                <h3>Jenny Shin</h3>
+            </div>
+    
+            <div class="col-sm-3";>
+            </div>
+    
+            <div class="col-sm-2">
+                    <nav class="navbar navbar-expand-sm">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">About</a>
+                                </li>
+                            </ul>
                     </nav>
+            </div>
+    
+            <div class="col-sm-2">
+                    <nav class="navbar navbar-expand-sm">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                </li>
+                            </ul>
+                    </nav>
+            </div>
 
-                    <div class="col-sm-2" style=background-color:brown;">
-                        <div class="p-2 bd-highlight"></div>
-                        <nav class="navbar navbar-expand-sm">
+            <div class="col-sm-2">
+                    <nav class="navbar navbar-expand-sm">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a class="nav-link" href="contact.html">Contact</a>
                                 </li>
                             </ul>
-                        </nav>
-                    </div> -->
-                </div>
+                    </nav>
             </div>
+    
         </div>
+    
 
-        <!-- 
-    <div class="container rowH"> -->
-        <!-- <div class="row"> -->
-        <!-- <div class="col-sm-6">
-            <div class="container">
-                <div class="container-fluid rowM">
+  <style>
+    #pic_image {
+      height: 150px;
+      width: 150px;
+      margin-right: 15px;
+      margin-top: 10px;
+    }
+  </style>
 
-                    <span class="border"></span>
-                    <div class="col-md-8">
-                        <h3>About Me</h3>
-                        <hr>
+  <div class="containerM">
+    <a src="/Basic-Portfolio/assets/images/daisy.jpg"></a>
+    <div class="containerMM">
+      <div class="aboutMe">
+        <h3>About Me</h3>
 
-                        <img src="../Bootstrap-Portfolio/assets/images/daisy.jpg" height="175px" width="175px">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac
-                            rhoncus
-                            nunc
-                            porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin
-                            vel dui
-                            massa.
-                            Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo
-                            purus vitae
-                            sollicitudin consectetur.</p>
+        <hr>
 
-                        <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium
-                            odio.
-                            Nunc id
-                            eros iaculis, pulvinar quam eget, egestas mauris.</p>
+        <img id="pic_image" src="/Basic-Portfolio/assets/images/daisy.jpg" class="float_left" alt="Your Name">
 
-                        <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas
-                            nibh
-                            tortor et
-                            mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu justo arcu. Etiam blandit nunc id arcu
+          mattis posuere. Maecenas eget pharetra lectus, a lacinia dui. Pellentesque ultrices risus id quam tincidunt,
+          et auctor risus tincidunt. Suspendisse sit amet ullamcorper est, id semper massa. Duis mi erat, auctor at sem
+          id, maximus blandit lorem. Duis nunc eros, consequat non nibh porttitor, sagittis elementum diam.</p>
 
-                    </div> -->
+        <p>Curabitur in magna vel sapien molestie tincidunt in vel diam. Phasellus sit amet tortor ac ligula pharetra
+          elementum nec vel ante. Duis ac dui quis urna sollicitudin hendrerit. Suspendisse magna diam, convallis et
+          nisl quis, rutrum ultrices leo.</p>
 
+        <p>Nullam accumsan lacinia eleifend. Integer iaculis urna non massa tempus, a ullamcorper ligula interdum. Donec
+          elementum quam id velit eleifend, eget cursus massa gravida. Mauris fringilla lobortis nibh vel laoreet.
+          Suspendisse elementum laoreet massa in ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
 
-                    <!--footer-->
-                    <!-- <div class="container-fluid rowF">
-                        <div class="mx-auto text-center">Copyright @ 2019</div>
-                    </div> -->
+      </div>
+    </div>
+  </div>
 
+  <div class="blueLine"></div>
 
-
+  <div class="containerB">
+    <H6>Copyright @ 2019</H6>
+  </div>
 
 </body>
-
 </html>
