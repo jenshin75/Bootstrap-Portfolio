@@ -21,12 +21,18 @@
 </style>
 
 <body>
+    <!-- <div class="row">
+    <div class="col-sm-3"></div> -->
+
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
     <a class="navbar-brand" href="#">Jenny Shin</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
+    <!-- <div class="col-sm-9"></div> -->
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
@@ -41,6 +47,7 @@
       </ul>
     </div>
   </nav>
+    </div>
 
   <div id="main-container" class="container">
     <section class="main-section">
@@ -53,14 +60,17 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-12"><h1>About Me</h1></div>
+          <div class="col-sm-12 ml-auto">
+            <h1>About Me</h1>
+            <hr>
+          </div>
 
-          <div class="row">
-              <div class="col-12"><hr></div>
-                  
-          <div class="col-3"><img id="pic_image" src="../Bootstrap-Portfolio/assets/images/daisy.jpg" height="200"
+          <!-- <div class="row">
+              <div class="col-sm-12"><hr></div> -->
+
+          <div class="col-sm-3"><img id="pic_image" src="../Bootstrap-Portfolio/assets/images/daisy.jpg" height="200"
               width="200" style="float: left"></div>
-          <div class="col-9">
+          <div class="col-sm-9">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere turpis non nisi tempor, vel
               tristique magna maximus. Suspendisse rhoncus tincidunt massa, id sollicitudin elit. Integer tristique
               tortor vitae ex bibendum consectetur. Etiam vel diam ligula. Vestibulum purus lectus, pretium eu bibendum
@@ -68,9 +78,9 @@
               auctor dolor magna vel risus.</p>
           </div>
 
-          <div class="col-12"></div>
+          <div class="col-sm-12"></div>
 
-          <div class="col-12">Quisque sagittis, tellus id blandit pellentesque, massa erat pretium mauris,
+          <div class="col-sm-12">Quisque sagittis, tellus id blandit pellentesque, massa erat pretium mauris,
             in vestibulum quam justo ac nibh. Nullam congue dui commodo dolor interdum, vel facilisis nisl pretium.
             Cras massa nisl, malesuada et vestibulum id, bibendum a sapien. Nullam sed tempus sapien, quis imperdiet
             urna. Vestibulum imperdiet auctor accumsan.</div>
