@@ -2,44 +2,56 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
   line-height: 34px;
-
 }
 
 * {
   box-sizing: border-box;
 }
-#name{
+
+#name {
   font-size: 18pt;
   padding-top: 15px;
-  background-color: teal;
-   height: 70px;
-   text-align: center;
+  background-color:#4aaaa5;
+  height: 70px;
+  text-align: center;
 }
- a{
-   color:black;
- }
- 
-#main{
+
+a {
+  color: black;
+}
+
+#main {
   color: #777777;
   background: url("../images/concrete_seamless.png");
   position: relative;
-  bottom: 16px;
+  bottom: 5px;
+  height: 550px;
+  padding: 10px;
+}
+
+.content-box {
+  background-color: #ffffff;
+  /* width: 960px; */
+  height: 475px;
+  padding: 20px;
+  margin: 20px 150px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  color: #4aaaa5;
+  /* text-align: center; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
 /* general */
 
-/* .container {
+.container {
   width: 100%;
   max-width: 960px;
-  margin: 0 auto;
-  clear: both;
+  /* margin: 0 auto;
+  clear: both; */
 }
 
-h1,
-h2,
-h3,
-p {
+h1, h2, h3, p {
   margin-bottom: 20px;
 }
 
@@ -47,9 +59,7 @@ p:last-child {
   margin-bottom: 0;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color: #4aaaa5;
@@ -62,8 +72,7 @@ h1 {
   border-bottom: 3px solid #dddddd;
 }
 
-h2,
-h3 {
+h2, h3 {
   font-size: 22px;
 }
 
@@ -132,7 +141,6 @@ h3, h2 {
   border-bottom: 2px solid #eeeeee;
 }
 
-/* main */
 
 #main-container {
   padding-top: 130px;
@@ -147,6 +155,7 @@ h3, h2 {
   margin: 0 0 40px;
   background: #ffffff;
   border: 1px solid #dddddd;
+  border: purple;
 }
 
 /* portfolio page */
@@ -201,17 +210,12 @@ h3, h2 {
   margin-bottom: 10px;
 }
 
-label,
-input[type=text],
-input[type=email],
-textarea {
+label, input[type=text], input[type=email], textarea {
   display: block;
   width: 100%;
 }
 
-input[type=text],
-input[type=email],
-textarea {
+input[type=text], input[type=email], textarea {
   height: 35px;
   padding: 0 10px;
   font-size: 14px;
