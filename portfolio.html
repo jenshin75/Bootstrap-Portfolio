@@ -14,73 +14,72 @@
 </head>
 
 <body>
- 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-    <a class="navbar-brand" href="#">Jenny Shin</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="../Bootstrap-Portfolio/index.html">About<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../Bootstrap-Portfolio/portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../Bootstrap-Portfolio/contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-    
-  </nav>
-
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <!-- <div class="containerM"> -->
-      <a href="../Bootstrap-Portfolio/assets/images/concrete_seamless.png"></a>
-      <!-- <div class="containerMM"> -->
-      <!-- <div class="aboutMe"> -->
-
-      <!-- test grid system START-->
-
-      <div class="container">
-        <section 
-
-        <div class="row">
-          <div class="col-sm-12">
-            <h1>Portfolio</h1>
-            <hr>
-          </div>
+  <header>
+    <div class="container">
+      <!--header (name and links)-->
+      <div class="row">
+        <div class="col-sm-3">
+          <p id="name">Jenny Shin</p>
         </div>
-
-        <!-- <div class="container"> -->
-
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="work">
-              <img src="../Bootstrap-Portfolio/assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
-              <h3>Word Guess</h3>
+        <div class="col-sm-9">
+          <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="../Bootstrap-Portfolio/index.html">About<span
+                      class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../Bootstrap-Portfolio/portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../Bootstrap-Portfolio/contact.html">Contact</a>
+                </li>
+              </ul>
             </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="work">
-              <img src="../Bootstrap-Portfolio/assets/images/technics-q-c-640-480-2.jpg" alt="RPG Games">
-              <h3>RPG Games</h3>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="work">
-          </div>
+          </nav>
+        </div>
+      </div>
+  </header>
+
+  <!--content (porfolio)-->
+  <div id="portfolio">
+    <div class="portfolio-box">
+
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Portfolio</h1>
         </div>
       </div>
 
-      <!-- <div class="container"> -->
+      <!--content row 1-->
+      <div class="row">
+
+        <div class="col-sm-4">
+          <div class="work">
+            <img src="../Bootstrap-Portfolio/assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
+            <h3>Word Guess</h3>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="work">
+            <img src="../Bootstrap-Portfolio/assets/images/technics-q-c-640-480-2.jpg" alt="RPG Games">
+            <h3>RPG Games</h3>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="work">
+          </div>
+        </div>
+      </div>
+      <!--content row 2-->
+
       <div class="row">
 
         <div class="col-sm-4">
@@ -99,77 +98,38 @@
 
         <div class="col-sm-4">
           <div class="work">
-            <!-- <img src="../Bootstrap-Portfolio/assets/images/technics-q-c-640-480-7.jpg" alt="Info Widget">
-                        <h3>Info Widgets</h3> -->
           </div>
         </div>
 
       </div>
 
-      <!-- <div class="container"> -->
+      <!-- content row 3) -->
       <div class="row">
 
-        <div class="col-sm-3">
+        <div class="col-sm-4">
           <div class="work">
             <img src="../Bootstrap-Portfolio/assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
             <h3>Rock Paper Scissors</h3>
           </div>
         </div>
-      
-      <div class="col-sm-9">
-        <!-- <div class="work">
-                    <img src="../Bootstrap-Portfolio/assets/images/technics-q-c-640-480-9.jpg"
-                      alt="Rock Paper Scissors">
-                    <h3>Rock Paper Scissors</h3> 
-                </div> -->
+
+        <div class="col-sm-8">
+          <div class="work">
+            <h3></h3>
+          </div>
+        </div>
+
+      </div>
+
       </div>
 </div>
-    </section>
 
-  </div>
-  <!-- <div id="main-container" class="container"> -->
-  <!-- <section class="main-section"> -->
-
-  <!-- <h1>Portfolio</h1>
-   
-      <div class="progress" style="height: 1px;">
-
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
-
-        <h3>Word Guess</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
-
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
-
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
-
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-
-        <h3>Rock Paper Scissors</h3>
-      </div>
-
-    </section> 
-
-  </div> -->
-
-  <footer>
-    <div class="container">
-      Copyright &copy;
-    </div>
-  </footer>
-
+      <!--footer-->
+      <footer>
+        <div class="container">
+          Copyright &copy;
+        </div>
+      </footer>
 </body>
 
 </html>

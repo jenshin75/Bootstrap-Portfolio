@@ -41,7 +41,26 @@ a {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+#portfolio {
+  color: #777777;
+  background: url("../images/concrete_seamless.png");
+  position: relative;
+  bottom: 5px;
+  height: 950px;
+  padding: 10px;
+}
 
+.portfolio-box {
+  background-color: #ffffff;
+  /* width: 960px; */
+  height: 900px;
+  padding: 25px;
+  margin: 20px 150px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  color: #4aaaa5;
+  /* text-align: center; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 /* general */
 
 .container {
@@ -163,7 +182,7 @@ h3, h2 {
 .work {
   position: relative;
   float: left;
-  width: 274px;
+  width: 300px;
   margin: 20px 0 25px;
   overflow: auto;
 }
