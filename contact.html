@@ -2,109 +2,103 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../Bootstrap-Portfolio/assets/css/style.css">
-    <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../Bootstrap-Portfolio/assets/css/style.css">
+  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 
-<style> 
-    textarea {
-      width: 100%;
-      height: 150px;
-      padding: 12px 20px;
-      box-sizing: border-box;
-      /* border: 2px solid #ccc; */
-      border-radius: 4px;
-      /* background-color: #f8f8f8; */
-      font-size: 16px;
-      resize: none;
-    }
-    </style>
-
 <body>
+  <header>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Jenny Shin</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="../Bootstrap-Portfolio/index.html">About<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../Bootstrap-Portfolio/portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../Bootstrap-Portfolio/contact.html">Contact</a>
-            </li>
-            <!-- <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li> -->
-          </ul>
+    <div class="container">
+
+      <!--header (name and links)-->
+      <div class="row">
+
+        <div class="col-sm-3">
+          <p id="name">Jenny Shin</p>
         </div>
-      </nav>
-       
-      <div id="main-container" class="container">
-          <section class="main-section">
-            <h1>Contact</h1>
-          <hr>
 
-<!--this section uses grid system for form-->
-<form action="/action_page.php">
+        <div class="col-sm-9">
 
-<div class="row col-sm-12"><label for="name">Name</label></div>
-<div class="row col-sm-12"><input class="form-control" type="text" id="name" name="Name"></div>
+          <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-<div class="row col-sm-12"><label for="email">Email</label></div>
-<div class="row col-sm-12"><input class="form-control" type="text" id="email" name="Email"></div>
-
-<div class="row col-sm-12"><label for="message">Message</label></div>
-<div class="row col-sm-12"><textarea class="form-control"></textarea></div><br>
-  
-<div class="row col-sm-12"><button type="button" class="btn btn-primary">Submit</button></div>
-<!-- <div class="row col-sm-10"></div> -->
-
-</form>
-
-
-
-<!--this section uses bootstrap form-->
-       
-<!-- <div class="form-group">
-  <label for="exampleFormControlInput1">Name</label>
- <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
-  </div>
-
-          <div class="form-group">
-              <label for="exampleFormControlInput1">Email</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="johndoe@abc.com">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="../Bootstrap-Portfolio/index.html">About<span
+                      class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../Bootstrap-Portfolio/portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../Bootstrap-Portfolio/contact.html">Contact</a>
+                </li>
+              </ul>
             </div>
 
-          <div class="form-group">
-            <label for="message">Message</label>
-           <textarea id="message" name="message" required="required"></textarea>
+          </nav>
+
+        </div>
+
+      </div>
+
+  </header>
+
+  <!--contact row 1 (name)-->
+  <div id="contact">
+    <div class="contact-box">
+      <div class="col-sm-12">
+        <h1>Contact</h1>
+      </div>
+
+      <form>
+        <div class="form-group row">
+          <label for="inputName" class="col-sm-12 col-form-label">Name</label>
+          <div class="col-sm-12">
+            <input type="name" class="form-control" id="inputName" placeholder="Name">
           </div>
-        </form>
-            <input type="submit"> -->
+        </div>
 
-    </section>
+        <div class="form-group row">
+          <label for="inputEmail" class="col-sm-12 col-form-label">Email</label>
+          <div class="col-sm-12">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
 
-  </div>
 
-  <footer>
-    <div class="container">
-      Copyright &copy; 
-    </div>
-  </footer>
+        <div class="form-group row">
+            <div class="col-sm-12">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+
+      </form>
+      </div>
+
+</div>
+      <!-- footer-->
+      <footer>
+      <div class="container">
+        Copyright &copy;
+      </div>
+    </footer>
 
 </body>
 
